@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Paralax</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+    <img id="gambar-kursor" src="kursor.png" alt="Ikon Kursor">
+
+  <!-- 3. JavaScript untuk melacak kursor -->
+  <script>
+    const gambar = document.getElementById('gambar-kursor');
+
+
+        document.addEventListener('mousemove', (e) => {
+            // Hanya mengambil koordinat X (horizontal) dari mouse asli
+             const x = e.clientX;
+            
+            // Memperbarui posisi kursor buatan (Hanya sumbu X)
+               gambar.style.left = `${x}px`;
+            
+            // Catatan: Sumbu Y sengaja diabaikan agar kursor tidak bisa naik-turun
+        });
+    </script>
+
+  <a href="#header"><img src="home.png" class="tombol"></a>
+
+<section id="header">
+<div class="header">
+<a href="#kunjungan"><img src="gambarkunjungan.png" class="ickunjungan"></a>
+<img src="bgkunjungan.png" class="bgkunjungan">
+<a href="#tentang"><img src="bukupertanian.png" class="icbuku"></a>
+<img src="bgbukupertanian.png" class="bgbuku">
+<a href="#penelitian"><img src="gambarpenelitian.png" class="icpenelitian"></a>
+<img src="bggambarpenelitian.png" class="bgpenelitian">
+<a href="#pelatihan"><img src="gambarpelatihan.png" class="icpelatihan"></a>
+<img src="bggambarpelatihan.png" class="bgpelatihan">
+<a href="#tentang"><img src="gambartentang2.png" class="ictentang"></a>
+<img src="bggambartentang2.png" class="bgtentang">
+<a href="#stok"><img src="keranjangsayur.png" class="icstok"></a>
+<img src="bgkeranjangsayur.png" class="bgstok">
+<img src="header.jpg" class="bg">
+</div>
+</section>
+
+<section id="tentang">
+<div classs="tentang" class="gambar-tentang">
+  <img src="https://drive.google.com/thumbnail?id=1T3qG6BFLYxxVomMNArV0BFs3UYXJOXOE&sz=w900">
+</div>
+<div class="isi-tentang">
+  <h1>Tentang Kami</h1>
+<p style="width: 80vw;padding-left: 10vw;"> Awal mula berdirinya Emak farm and hydroponic pada tahun 2018 didasari oleh adanya Iahan yang cukup luas di daerah Wadungasri, Waru, Sidoarjo. Lahan yang terletak di perbatasan Surabaya dan Sidoarjo tersebut dirasa strategis sehingga memudahkan distribusi sayur maupun orang yang mau berkunjung ke kebun. Waktu tempuh dari tol Waru ke tol Tambak Sumur (ruas tol Waru — Juanda) hanya berkisar 10 menit.
+Pada tahun 2020, kebun Emak mengikuti pameran di PTC (Pakuwon Trade Center) Surabaya, ketika peserta yang lain sibuk berjulan sayur dan alat hidroponik, tim kebun emak hanya membawa sayur yang sudah rusak terserang hama, namun diluar dugan, respon pengunjung yang antusias ingin tahu lebih dalam tentang pertanian hidroponik karena banyak dari mereka yang hanya sekedar bisa menanam tanpa tahu cara merawat tanaman hidroponiknya. Setelah pameran tersebut, terjadi sedikit pergeseran tujuan kebun emak yang awalnya hanya pemanfaatan Iahan kini tujuannya menjadi kebun yang bermanfaat. Manfaat sebagai sarana edukasi, bermanfaat memenuhi kebutuhan pasar, manfaat memenuhi kebutuhan pertanian bagi para petani binaan dan manfaat dalam membantu membuka potensi pasar sayur petani binaanya.
+</p>
+</div>
+</section>
+
+
+<section id="kunjungan">
+<div classs="kunjungan">
+  <img src="https://drive.google.com/thumbnail?id=12rVs8bid-os3LCYaKcXYiK4P9McKNbiA&sz=w900
+" class="gambar-kunjungan">
+</div>
+<div class="isi-kunjungan">
+<h1>Kunjungan Kebun</h1>
+<p style="width: 80vw;padding-left: 10vw;"> sebagai kebun yang berlokasi di perkotaan dan menanam beraneka ragam sayur maupun buah, kami membuka kesempatan bagi masyarakat yang ingin berkunjung kekebun baik sekedar melihat, memanen maupun belajar mengenai hidroponik. Selain itu kami juga membuka kesempatan bagi mahasiswa atau pelajar yang ingin melakukan aktifitas penelitian maupun magang di kebun kami.
+</p>
+</section>
+
+<section id="pelatihan">
+<div classs="pelatihan">
+  <img src="pelatihan.jpg">
+</div>
+
+</section>
+
+
+<section id="penelitian">
+<div classs="penelitian">
+  <img src="penelitian.jpg" class="gambar-penelitian">
+</div>
+
+<div class="isi-penelitian">
+<h1>Magang dan Penelitian</h1>
+<p style="width: 80vw;padding-left: 10vw;">Sebagai kebun yang sudah berdiri selama 5 tahun dan memiliki lokasi yang strategis dan luas menjadikan Kebun Emak sebagai tujuan utama penelitian dan magang di Surabaya raya
+Adapun tahapan dalam melaksanakan penelitian / magang yaitu menghubungi kontak tertera untuk berdiskusi mengenai judul dan aktifitas yang akan dilakukan. Selanjutnya peserta menyerahkan surat pengantar dari instansi asal.
+Peserta magang / penelitian akan mendapatkan 3 materi hidroponik (dasar budidaya, budidaya hidroponik dan bisnis hidroponik), dan akses untuk beraktifitas di dalam kebun selama masa magang /  penelitian. Pada akhir periode, peserta akan mendapatkan surat selesai magang dan sertifikat.
+</p> 
+</div>
+<br>
+<table style="width: 90vw;padding-left: 10vw;">
+  <thead>
+    <tr style="background-color: #078027; color: #ffffff; text-align: center;">
+      <th style="text-align: center;">No</th>
+      <th>Nama</th>
+      <th style="text-align: center;">Jumlah Peserta</th>
+      <th>Asal Instansi</th>
+      <th style="text-align: center;">Aktivitas</th>
+      <th>Tema</th>
+      <th>Waktu</th>
+      <th style="text-align: center;">Ket</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">1</td>
+      <td><strong>Arvyan CS</strong></td>
+      <td style="text-align: center;">5 Orang</td>
+      <td>Agrotek UPN VT Jatim</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>18 Januari 2021 – 18 Februari 2021</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">2</td>
+      <td><strong>M. Fachmi</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Teknik Instrumentasi ITS</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>15 Februari 2021 – 15 Maret 2021</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">3</td>
+      <td><strong>Imka</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Unipa</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>1 Februari 2021 – 1 Maret 2021</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">4</td>
+      <td><strong>Yuniar CS</strong></td>
+      <td style="text-align: center;">3 Orang</td>
+      <td>Unipa</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>8 Februari 2021 – 8 Maret 2021</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">5</td>
+      <td><strong>Agus M. Jarir</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Agrotek UPN VT Jatim</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>10 Januari 2022 – 9 Februari 2022</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">6</td>
+      <td><strong>Maduri CS</strong></td>
+      <td style="text-align: center;">4 Orang</td>
+      <td>Faperta Universitas Trunojoyo Madura</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>10 Januari 2022 – 9 Februari 2022</td>
+      <td style="text-align: center;">Preview</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">7</td>
+      <td><strong>Talitha CS</strong></td>
+      <td style="text-align: center;">2 Orang</td>
+      <td>Agrotek UPN VT Jatim</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>1 Agustus 2022 – 31 Agustus 2022</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">8</td>
+      <td><strong>Galan CS</strong></td>
+      <td style="text-align: center;">5 Orang</td>
+      <td>Agribisnis UPN VT Jatim</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>1 Agustus 2022 – 31 Agustus 2022</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">9</td>
+      <td><strong>Fitria CS</strong></td>
+      <td style="text-align: center;">5 Orang</td>
+      <td>Agrotek UPN VT Jatim</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>2 Januari 2023 – 2 Februari 2023</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">10</td>
+      <td><strong>Zaydan</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Agrotek UPN VT Jatim</td>
+      <td style="text-align: center;">Skripsi</td>
+      <td>Dosis dan Interval POC</td>
+      <td>1 Maret 2023 – 1 Mei 2023</td>
+      <td style="text-align: center;">Preview</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">11</td>
+      <td><strong>Ayunda</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Agribisnis UPN VT Jatim</td>
+      <td style="text-align: center;">Skripsi</td>
+      <td>Perancangan dan Pengembangan Agrosistem</td>
+      <td>1 Maret 2023 – 1 Mei 2023</td>
+      <td style="text-align: center;">Preview</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">12</td>
+      <td><strong>Falahah Cs</strong></td>
+      <td style="text-align: center;">2 Orang</td>
+      <td>Faperta Universitas Trunojoyo</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>1 Juli 2023 – 1 Mei 2023</td>
+      <td style="text-align: center;">Preview</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">13</td>
+      <td><strong>Patria CS</strong></td>
+      <td style="text-align: center;">2 Orang</td>
+      <td>Agrotek UPN VT Jatim</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>2 Januari 2024 – 2 Februari 2024</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">14</td>
+      <td><strong>Wella</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Agrotek UPN VT Jatim</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>24 Juli 2024 – 24 Agustus 2024</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">15</td>
+      <td><strong>Raihan</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Instrumentasi ITS</td>
+      <td style="text-align: center;">TA</td>
+      <td>Sensor Aliran Air</td>
+      <td>1 Mei 2024 – 1 Agustus 2024</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">16</td>
+      <td><strong>Teppy</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Instrumentasi ITS</td>
+      <td style="text-align: center;">PKM</td>
+      <td>Sensor Kelembaban, TDS dan Ph Meter</td>
+      <td>1 Mei 2024 – 1 Agustus 2024</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">17</td>
+      <td><strong>Arin</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Agrotek UPN VT Jatim</td>
+      <td style="text-align: center;">Skripsi</td>
+      <td>Pengaruh kecepatan pompa dan media tanam</td>
+      <td>1 Mei 2024 – 1 Agustus 2024</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">18</td>
+      <td><strong>Hardi Cs</strong></td>
+      <td style="text-align: center;">4 Orang</td>
+      <td>Politeknik Negeri Kupang, NTT</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>1 September 2024 – 1 Desember 2024</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">19</td>
+      <td><strong>Vivin CS</strong></td>
+      <td style="text-align: center;">5 Orang</td>
+      <td>Untag, Surabaya</td>
+      <td style="text-align: center;">WMK</td>
+      <td>-</td>
+      <td>1 Oktober 2024 – 1 November 2024</td>
+      <td style="text-align: center;">Preview</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">20</td>
+      <td><strong>Vira Triana</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>UPN VT Jatim</td>
+      <td style="text-align: center;">Skripsi</td>
+      <td>Perlakuan dosis dan inteval pada Wick Sistem</td>
+      <td>1 Oktober 2024 – 1 November 2024</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">21</td>
+      <td><strong>Iftah CS</strong></td>
+      <td style="text-align: center;">2 Orang</td>
+      <td>UPN VT Jatim</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>1 Januari 2025 – 1 Februari 2025</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">22</td>
+      <td><strong>Rino</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Agrotek UPN VT Jatim</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>1 Januari 2026 – 1 Februari 2026</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">23</td>
+      <td><strong>Helda</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Agribis UPN VT Jatim</td>
+      <td style="text-align: center;">MBKM</td>
+      <td>-</td>
+      <td>1 Februari 2026 – 1 Juni 2026</td>
+      <td style="text-align: center;">Preview</td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <td style="text-align: center;">24</td>
+      <td><strong>Allayna CS</strong></td>
+      <td style="text-align: center;">2 Orang</td>
+      <td>Agribis UPN VT Jatim</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>1 Juli 2026 – 11 Agustus 2026</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">25</td>
+      <td><strong>Aldio</strong></td>
+      <td style="text-align: center;">1 Orang</td>
+      <td>Agrotek UPN VT Jatim</td>
+      <td style="text-align: center;">Magang</td>
+      <td>-</td>
+      <td>1 Juli 2026 – 11 Agustus 2026</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+
+
+
+<section id="stok">
+<div classs="stok">
+  <img src="sayur.jpg" class="gambar-stok">
+</div>
+<div class="isi-stok">
+<h1> Stok Sayur</h1>
+<p style="width: 80vw;padding-left: 10vw;"> Selain sebagai sarana edukasi dan rekreasi, kebun kami tetap menjalankan fungsi utamanya yaitu produksi dan penjualan. Selama beberapa tahun ini ada lebih dari 15 komoditas yang pernah kita budidayakan baik kelompok oriental (sawi sawian), aneka selada hingga sayuran buah (tomat cherry) hingga melon. Berikut merupakan daftar tanaman beserta ketersediaannya.
+</p> 
+</div>
+</section>
+
+
+
+</body>
