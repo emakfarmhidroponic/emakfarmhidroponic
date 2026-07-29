@@ -1,0 +1,141 @@
+*{scroll-behavior: smooth;
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+   height: auto;
+   font-family: 'montserrat';
+}
+
+
+
+#header{position: relative;
+width: 100vw;}
+
+.ickunjungan{position: absolute;
+    width: 30vw;
+  top: 12vw;
+left: 0px;z-index: 1;}
+
+.bgkunjungan{position: absolute;
+    width: 30vw;
+  top: 12vw;
+left: 0px;
+animation: blinker 3s linear infinite;
+    animation-delay: 3s;
+   z-index: 0;}
+
+
+   .icbuku{position: absolute;
+   width: 30vw;
+top: 0px;
+left: 80vh;z-index: 2;}
+
+.bgbuku{position: absolute;
+   width: 19vw;
+top: 0px;
+left: 93vh;
+animation: blinker 3s linear infinite;
+    animation-delay: 3s;z-index: 1;}
+
+
+    .icpelatihan{position: absolute;
+   width: 28vw;
+top: 23vw;
+left: 165vh;z-index: 2;}
+
+
+.bgpelatihan{position: absolute;
+   width: 28vw;
+top: 23vw;
+left: 165vh;
+animation: blinker 3s linear infinite;
+    animation-delay: 3s;z-index: 1;}
+
+.icpenelitian{position: absolute;
+   width: 20vw;
+top: 5vw;
+left: 172vh;z-index: 1;}
+
+.bgpenelitian{position: absolute;
+   width: 13vw;
+top: 10vw;
+left: 187vh;
+animation: blinker 3s linear infinite;
+    animation-delay: 3s;z-index: 0;}
+
+.ictentang{position: absolute;
+   width: 30vw;
+top: 33vw;
+left: 10vh;z-index: 2;}
+
+.bgtentang{position: absolute;
+   width: 20vw;
+top: 35vw;
+left: 18vh;
+animation: blinker 3s linear infinite;
+    animation-delay: 3s;z-index: 1;}
+
+.icstok{position: absolute;
+   width: 30vw;
+top: 40vw;
+left: 50vh;z-index: 2;}
+
+    
+.bgstok{position: absolute;
+   width: 23vw;
+top: 40vw;
+left: 55vh;
+animation: blinker 3s linear infinite;
+    animation-delay: 3s;z-index: 1;}
+
+
+#tentang{position: relative;padding: 0; margin: 0;}
+.gambar-tentang{position: relative;opacity: 50%}
+.isi-tentang{position: absolute;top: 20%;text-align: center;}
+
+
+
+#kunjungan{position: relative;padding: 0; margin: 0; width: 100vw;}
+.isi-kunjungan{position: absolute;top: 50%;text-align: center;width: 100vw;}
+.gambar-kunjungan{opacity: 50%; width: 100vw;}
+
+
+
+
+#penelitian{position: relative;padding: 0; margin: 0;}
+.isi-penelitian{position: absolute;top: 20%;text-align: center;width: 100vw;}
+.gambar-penelitian{opacity: 50%}
+
+
+
+
+
+#stok{position: relative;padding: 0; margin: 0;}
+.isi-stok{position: absolute;top: 20%;text-align: center;width: 100vw;  }
+.gambar-stok{opacity: 50%}
+
+
+
+
+
+.tombol{position: fixed; 
+   width: 20vw;
+   z-index: 10;}
+
+
+    
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+    #gambar-kursor {
+    position: absolute;
+	top : 29vw;
+    width: 20vw; /* Sesuaikan ukuran gambar */
+    height: auto;
+    pointer-events: none; /* Mencegah gambar mengganggu klik mouse */
+    transform: translate(-50%, -50%); /* Memposisikan gambar tepat di tengah kursor */
+    transition: transform 0.05s ease; /* Efek gerakan yang mulus */
+  z-index: 2;}
