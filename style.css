@@ -101,8 +101,8 @@ animation: blinker 3s linear infinite;
 .isi-tentang{position: absolute;top: 20%;text-align: center;}
 
 #visimisi{position: relative;padding: 0; margin: 0;}
-.gambar-visimisi{position: absolute;top: 50%;text-align: center;width: 100vw;}
-.isi-visimisi{opacity: 50%; width: 100vw;}
+.isi-visimisi{position: absolute;top: 50%;text-align: center;width: 100vw;}
+.gambar-visimisi{opacity: 50%; width: 100vw;}
 
 
 
