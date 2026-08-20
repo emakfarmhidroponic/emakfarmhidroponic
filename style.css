@@ -75,6 +75,13 @@ left: 18vh;
 animation: blinker 3s linear infinite;
     animation-delay: 3s;z-index: 1;}
 
+.bgvisimisi{position: absolute;
+   width: 20vw;
+top: 35vw;
+left: 18vh;
+animation: blinker 3s linear infinite;
+    animation-delay: 3s;z-index: 1;}
+
 .icstok{position: absolute;
    width: 30vw;
 top: 40vw;
@@ -92,6 +99,10 @@ animation: blinker 3s linear infinite;
 #tentang{position: relative;padding: 0; margin: 0;}
 .gambar-tentang{position: relative;opacity: 50%}
 .isi-tentang{position: absolute;top: 20%;text-align: center;}
+
+#visimisi{position: relative;padding: 0; margin: 0;}
+.gambar-visimisi{position: relative;opacity: 50%}
+.isi-visimisi{position: absolute;top: 20%;text-align: center;}
 
 
 
