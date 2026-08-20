@@ -100,10 +100,10 @@ animation: blinker 3s linear infinite;
 .gambar-tentang{position: relative;opacity: 50%}
 .isi-tentang{position: absolute;top: 20%;text-align: center;}
 
+
 #visimisi{position: relative;padding: 0; margin: 0; width: 100vw;}
 .isi-visimisi{position: absolute;top: 50%;text-align: center;width: 100vw;}
-.gambar-visimisi{opacity: 50%; width: 100vw;}
-
+.gambar-visimisi{position: relative;opacity: 50%}
 
 
 
