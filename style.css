@@ -75,8 +75,6 @@ left: 18vh;
 animation: blinker 3s linear infinite;
     animation-delay: 3s;z-index: 1;}
 
-
-
 .icstok{position: absolute;
    width: 30vw;
 top: 40vw;
@@ -104,6 +102,8 @@ animation: blinker 3s linear infinite;
 #kunjungan{position: relative;padding: 0; margin: 0; width: 100vw;}
 .isi-kunjungan{position: absolute;top: 50%;text-align: center;width: 100vw;}
 .gambar-kunjungan{opacity: 50%; width: 100vw;}
+
+
 
 
 #penelitian{position: relative;padding: 0; margin: 0;}
