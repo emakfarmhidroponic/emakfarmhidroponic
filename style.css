@@ -75,12 +75,7 @@ left: 18vh;
 animation: blinker 3s linear infinite;
     animation-delay: 3s;z-index: 1;}
 
-.bgvisimisi{position: absolute;
-   width: 20vw;
-top: 35vw;
-left: 18vh;
-animation: blinker 3s linear infinite;
-    animation-delay: 3s;z-index: 1;}
+
 
 .icstok{position: absolute;
    width: 30vw;
@@ -101,17 +96,14 @@ animation: blinker 3s linear infinite;
 .isi-tentang{position: absolute;top: 20%;text-align: center;}
 
 
-#visimisi{position: relative;padding: 0; margin: 0; width: 100vw;}
-.isi-visimisi{position: absolute;top: 50%;text-align: center;width: 100vw;}
-.gambar-visimisi{position: relative;opacity: 50%}
-
-
 
 #kunjungan{position: relative;padding: 0; margin: 0; width: 100vw;}
 .isi-kunjungan{position: absolute;top: 50%;text-align: center;width: 100vw;}
 .gambar-kunjungan{opacity: 50%; width: 100vw;}
 
-
+#visimisi{position: relative;padding: 0; margin: 0; width: 100vw;}
+.isi-visimisi{position: absolute;top: 50%;text-align: center;width: 100vw;}
+.gambar-visimisi{position: relative;opacity: 50%}
 
 
 #penelitian{position: relative;padding: 0; margin: 0;}
